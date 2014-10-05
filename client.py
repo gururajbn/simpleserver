@@ -25,7 +25,7 @@ def Main():
                     totalRecv += len(data)
                     f.write(data)
                     print "{0:.2f}".format((totalRecv/float(filesize))*100)+ "% Done"
-                print "Download Complete!"
+                print "Downloaded!"
                 f.close()
         else:
             print "File Does Not Exist!"
